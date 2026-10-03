@@ -58,6 +58,10 @@ font_main = font.Font(None, 36)
 # --- ЗВУКИ ---
 jump = mixer.Sound("pingpongbat.ogg")
 jump2 = mixer.Sound("ping_pong_8bit_beeep.ogg")
+
+mixer.music.load("bgmusic1.ogg")
+mixer.music.play(-1)
+# mixer.music.set_volume(0.3)
 # --- ГРА ---
 game_over = False
 winner = None
